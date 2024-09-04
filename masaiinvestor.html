@@ -31,6 +31,23 @@
         .parentgrid>div>img+h2+p+img{
             width: 150px;
         }
+      
+         /* Medium Screen */
+       @media all and (min-width: 521px) and (max-width: 750px) {
+       .parentgrid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+       }
+       }
+      
+        /* Small Screen */
+      @media all and (min-width: 370px) and (max-width:520px) {
+        .parentgrid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       }
+     }
+
     </style>
 </head>
 <body>
